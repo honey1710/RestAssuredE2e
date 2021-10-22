@@ -26,7 +26,7 @@ public class TC4GetAllHeader {
 		
 		//Validate Status Code 
 		int ActualStatusCode=response.getStatusCode();
-		Assert.assertEquals(ActualStatusCode, 209);
+		Assert.assertEquals(ActualStatusCode, 200);
 		
 		
 		//Capture All Header 
