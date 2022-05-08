@@ -30,8 +30,8 @@ public class TC4GetAllHeader {
 		
 		
 		//Capture All Header 
-		Headers allheader=response.headers();
-		for(Header h:allheader) 
+		Headers a=response.headers();
+		for(Header h:a)
 		{
 			System.out.println(h.getName()+"\t"+h.getValue());
 		}
